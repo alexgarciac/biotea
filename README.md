@@ -1,6 +1,8 @@
 #Biotea
 ======
-RDF as an Interface to scientific publications
+RDF as an Interface to scientific publications.
+
+Read more at http://www.jbiomedsem.com/content/4/S1/S5
 
 ##Main Class
 PmcOpenAccessRDFHandlerWithThreads
