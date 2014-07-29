@@ -29,6 +29,8 @@ Note: Whatizit has not been updated lately so annotations will be out of sync wi
 * For whatizit annotator, ontologies that are also included in NCBOAnnotator, i.e., GO and CHEBI, can be included or not, check properties whatizit.CHEBI and whatizit.GO. By default they are set to true so they will be processed.
 * For NCBO Annotator is possible to include only (ncbo.annotator.include.only) or exclude some ontologies (ncbo.annotator.exclude). You will need to specify the name of the ontology, see names at ontologies.properties. By default ICD9 and NCBITaxon are excluded.
 
+IMPORTANT: REmember to configure your Bioportal API key in order to use the NCBOAnnotator
+
 IMPORTANT: If you are annotating with Whatiziti, remember to point to your local copy of whatizit.wsdl.dir
 
 ##Running environment

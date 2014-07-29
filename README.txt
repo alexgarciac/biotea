@@ -23,7 +23,9 @@ For whatizit, GO and CHEBI can be included or not, check config.properties
 For NCBO Annoator is possible to include only or exclude some ontologies. You will need to specify
 the enumeration name of the ontology, see names at ws.biotea.ld2rdf.util.ncbo.annotator.Ontology
 
-IMPORTANT: Remember to point to your local copy of whatizit.wsdl.dir
+IMPORTANT: REmember to configure your Bioportal API key in order to use the NCBOAnnotator
+
+IMPORTANT: If you are annotating with Whatiziti, remember to point to your local copy of whatizit.wsdl.dir
 
 ##############################
 #Running environment
