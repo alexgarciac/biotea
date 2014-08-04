@@ -1,4 +1,4 @@
-##############################
+﻿##############################
 #Biotea
 ##############################
 RDF as an Interface to scientific publications.
@@ -103,4 +103,4 @@ All
 that all of them will be annotated. Furthermore, it could be that more or less paragraphs are annotated if you try again because of NCBOAnnotator 
 responses. In order to alter this behaviour, and perhaps annotate all or nothing, you will need to adjust the NCBOAnnotator class
 
-- Whatizit has not been updated lately so annotations will be out of sync with current versions of the ontologies used there.
+- Whatizit has not been updated lately so annotations will be out of sync regarding current versions of the ontologies and datasets used there.
