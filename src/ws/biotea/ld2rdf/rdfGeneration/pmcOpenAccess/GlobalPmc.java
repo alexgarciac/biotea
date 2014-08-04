@@ -7,28 +7,7 @@ public class GlobalPmc {
 	private String uriStyle;
 	private boolean initialized;	
 	private String pmcID;
-	/**
-	 * Private constructor. 
-	 */
-	public GlobalPmc(String pmcID) {
-		this.initialized = false;
-		this.pmcID = pmcID;
-		if (Config.useBio2RDF) {
-			this.uriStyle = Config.bio2rdf;
-		} else {
-			this.uriStyle = "Biotea";
-		}
-		this.initPatterns();
-	}
-	static {
-		initStaticPatterns();
-	}
-	/**
-	 * @return the uriStyle
-	 */
-	public String getUriStyle() {
-		return uriStyle;
-	}
+	
 	//Biotea base URI
 	public final static String BASE_URL = Config.BIOTEA_URL; //"http://" + Config.getBioteaBase(); // + "/pubmedOpenAccess/rdf/"
 	//dataset pattern
@@ -85,6 +64,29 @@ public class GlobalPmc {
 	String BASE_URL_REF_LIST;
 	String BASE_URL_APPENDIX;
 	String BASE_URL_PARAGRAPH;
+	
+	/**
+	 * Private constructor. 
+	 */
+	public GlobalPmc(String pmcID) {
+		this.initialized = false;
+		this.pmcID = pmcID;
+		if (Config.useBio2RDF) {
+			this.uriStyle = Config.bio2rdf;
+		} else {
+			this.uriStyle = "Biotea";
+		}
+		this.initPatterns();
+	}
+	static {
+		initStaticPatterns();
+	}
+	/**
+	 * @return the uriStyle
+	 */
+	public String getUriStyle() {
+		return uriStyle;
+	}
 	
 	public String getPmcUri() {
 		return GlobalPmc.pmcURI + this.pmcID;
